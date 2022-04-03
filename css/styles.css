@@ -14,7 +14,7 @@ color: #757575;
 font-family: Roboto, sans-serif;
 }
 
-.header-list, .about-list, .work-list, .team-list, .address-list{
+.header-list, .about-list, .work-list, .team-list, .address-list, .section-list{
     list-style: none;
 }
 
@@ -265,4 +265,33 @@ line-height: 1.62px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+}
+
+
+/*--------SECTION-------*/
+
+.section-btn:hover,
+.section-btn:focus{
+color: var(--first-btn-color);
+background-color:var(--accent-color)
+}
+
+.section-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.sectoin-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88px;
+letter-spacing: 0.03em;
+color: #757575;
 }
