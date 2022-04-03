@@ -1,0 +1,257 @@
+:root{
+    --header-color:#212121;
+    --first-title-color:#212121;
+    --second-title-color: #2196F3;
+    --first-btn-color: #FFFFFF;
+    --second-btn-color: #2196F3;
+    --accent-color:#2196F3;
+}
+
+
+body {
+background-color:#FFFFFf , #2F303A, #2196F3;
+color: #757575;
+font-family: Roboto, sans-serif;
+}
+
+.header-list, .about-list, .work-list, .team-list, .address-list{
+    list-style: none;
+}
+
+.header-link, .header-mail, .header-tel,  .address-mail, .address-tel {
+    text-decoration: none;
+}
+
+/*--------HEADER-------*/
+
+.header-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.logo-web {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.logo-studio {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.header-link, .header-mail, .header-tel {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color: var(--header-color)
+}
+
+.header-link:hover,
+.header-link:focus {
+color: var(--accent-color)
+}
+
+.header-tel, .header-mail {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+color: #757575;
+}
+
+.header-tel:hover,
+.header-tel:focus {
+color: var(--accent-color)
+}
+
+.header-mail:hover,
+.header-mail:focus {
+color: var(--accent-color)
+}
+
+/*--------HERO-------*/
+
+
+.hero-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-content{
+    background-color: #2F303A;
+}
+
+.hero-btn{
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1,88px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--first-btn-color)
+}
+
+.hero-btn:hover,
+:focus{
+color: var(--first-btn-color);
+background-color:var(--accent-color)
+}
+
+/*--------ABOUT-------*/
+
+.about-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121
+}
+
+.text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*--------WORK-------*/
+
+.work-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/*--------TEAM-------*/
+
+.team-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;   
+}
+
+.team{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.text-team{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*--------FOOTER-------*/
+
+.address-logo{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+/* identical to box height */
+letter-spacing: 0.03em;
+}
+
+.address-web{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.address-studio{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.text-address{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.address-mail, .address-tel{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.address-content{
+    background-color:  #2F303A;;
+}
